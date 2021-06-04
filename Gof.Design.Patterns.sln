@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31025.218
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{326BF650-4667-4BBA-8A0B-03D526A659FF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{6B9A8F6D-7194-4077-ABEB-EBF8F6C00CE8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gof.Design.Patterns.Winforms", "Gof.Design.Patterns.Winforms\Gof.Design.Patterns.Winforms.csproj", "{6707818C-4D74-45F7-9D15-1F73EF403843}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6707818C-4D74-45F7-9D15-1F73EF403843}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6707818C-4D74-45F7-9D15-1F73EF403843}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6707818C-4D74-45F7-9D15-1F73EF403843}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6707818C-4D74-45F7-9D15-1F73EF403843}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6B9A8F6D-7194-4077-ABEB-EBF8F6C00CE8} = {326BF650-4667-4BBA-8A0B-03D526A659FF}
+		{6707818C-4D74-45F7-9D15-1F73EF403843} = {6B9A8F6D-7194-4077-ABEB-EBF8F6C00CE8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {988D8940-6D8D-449D-9F9C-7D9BA74079DA}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Abstract (Process)">
+    <Position X="1.728" Y="3.03" Height="0.291" Width="1.588" />
+  </Comment>
+  <Comment CommentText="ConcreteClass (Attendance &amp; Deduction)">
+    <Position X="4.248" Y="3.04" Height="0.291" Width="3.983" />
+  </Comment>
+  <Class Name="Gof.Design.Patterns.Winforms.Patterns.Template.ProcessTemplate">
+    <Position X="4.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Patterns\Template\ProcessTemplate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Gof.Design.Patterns.Winforms.Patterns.Template.ProcessAbstract">
+    <Position X="1.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAI=</HashCode>
+      <FileName>Patterns\Template\ProcessAbstract.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Gof.Design.Patterns.Winforms.Patterns.Template.Attendance">
+    <Position X="4.25" Y="3.5" Width="1.5" />
+    <InheritanceLine Type="Gof.Design.Patterns.Winforms.Patterns.Template.ProcessAbstract" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="2.438" Y="4.988" />
+        <Point X="2.438" Y="5.3" />
+        <Point X="4.938" Y="5.3" />
+        <Point X="4.938" Y="4.925" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>Patterns\Template\Attendance.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Gof.Design.Patterns.Winforms.Patterns.Template.Deduction">
+    <Position X="6.75" Y="3.5" Width="1.5" />
+    <InheritanceLine Type="Gof.Design.Patterns.Winforms.Patterns.Template.ProcessAbstract" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="2.438" Y="4.988" />
+        <Point X="2.438" Y="5.3" />
+        <Point X="7.375" Y="5.3" />
+        <Point X="7.375" Y="4.925" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>Patterns\Template\Deduction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

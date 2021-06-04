@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Facade (Employee)">
+    <Position X="1.488" Y="1.582" Height="0.291" Width="2.473" />
+  </Comment>
+  <Comment CommentText="Subsystem Classes (Employee, Contact and Address)">
+    <Position X="4.537" Y="1.585" Height="0.291" Width="4.953" />
+  </Comment>
+  <Class Name="Gof.Design.Patterns.Winforms.Patterns.Facade.Employee">
+    <Position X="4.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAAAAAAAAAAAABAAAgAAAAAAAQAAAAAAAAAI=</HashCode>
+      <FileName>Patterns\Facade\Employee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Gof.Design.Patterns.Winforms.Patterns.Facade.Contact">
+    <Position X="6.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Patterns\Facade\Contact.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Gof.Design.Patterns.Winforms.Patterns.Facade.Address">
+    <Position X="8" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Patterns\Facade\Address.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Gof.Design.Patterns.Winforms.Patterns.Facade.EmployeeFacade">
+    <Position X="1.5" Y="2" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAIAAABgCAAAACAAAQAAAAAAAAAAAAAAEAAIAA=</HashCode>
+      <FileName>Patterns\Facade\EmployeeFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

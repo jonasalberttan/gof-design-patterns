@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Gof.Design.Patterns.Winforms.Patterns.Proxy.Computation">
+    <Position X="5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAEAAAAAAEAAA=</HashCode>
+      <FileName>Patterns\Proxy\Computation.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Gof.Design.Patterns.Winforms.Patterns.Proxy.ComputationProxy">
+    <Position X="6.75" Y="2" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAEAAAAAAEAAA=</HashCode>
+      <FileName>Patterns\Proxy\ComputationProxy.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="Gof.Design.Patterns.Winforms.Patterns.Proxy.IComputation">
+    <Position X="3.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAEAAAAAAEAAA=</HashCode>
+      <FileName>Patterns\Proxy\IComputation.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

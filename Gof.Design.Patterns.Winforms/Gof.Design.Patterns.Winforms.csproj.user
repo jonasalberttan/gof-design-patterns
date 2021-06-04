@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ShowAllFiles>true</ShowAllFiles>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Update="Forms\Employee\FrmComputation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Employee\FrmEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Employee\FrmEmployeeEntry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Employee\FrmProcess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MainMenudo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
